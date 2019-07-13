@@ -1,0 +1,7 @@
+{
+  "name": "ptGUI batch renderer",
+  "dependencies": {
+    "exif": "^0.6.0",
+    "mustache": "^3.0.1"
+  }
+}
