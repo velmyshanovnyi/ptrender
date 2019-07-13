@@ -2,7 +2,8 @@ var Mustache = require('mustache');
 var fs = require('fs');
 var path = require("path");
 
-var ptGUICmd = "E:/soft/PTGUI/PTGUI.exe";
+//  var ptGUICmd = "E:/soft/PTGUI/PTGUI.exe";
+var ptGUICmd = "C:/Program Files/PTGui/PTGUI.exe";
 var tplFile = "batch.pts.tpl";
 var tmpConfig = "batch.tmp.pts";
 var template;
