@@ -1,18 +1,20 @@
+// see ReadMe https://velmyshanovnyi.github.io/ptrender/
+
 var Mustache = require('mustache');
 var fs = require('fs');
 var path = require("path");
 
 //  var ptGUICmd = "E:/soft/PTGUI/PTGUI.exe";
-var ptGUICmd = "C:/Program Files/PTGui/PTGUI.exe";
-var tplFile = "batch.pts.tpl";
+var ptGUICmd  = "C:/Program Files/PTGui/PTGUI.exe";
+var tplFile   = "batch.pts.tpl";
 var tmpConfig = "batch.tmp.pts";
 var template;
 
 var config = {
-    "baseDir": "../_test",
-    "frontDir": "Front",
-    "backDir": "Back",
-    "outDir": "out"
+    "baseDir":  "../ptfiles",
+	"backDir":  "back",
+    "frontDir": "front",
+    "outDir":   "out"
 };
 
 var images;
@@ -20,9 +22,9 @@ var images;
 function scan() {
     var imageList = {};
 
-    var backDir = config.baseDir + '/' + config.backDir;
+    var backDir  = config.baseDir + '/' + config.backDir;
     var frontDir = config.baseDir + '/' + config.frontDir;
-    var outDir = config.baseDir + '/' + config.outDir;
+    var outDir   = config.baseDir + '/' + config.outDir;
 
     fs.readdirSync(backDir).forEach(file => {
         if (path.extname(file).toLowerCase() == ".jpg") {
