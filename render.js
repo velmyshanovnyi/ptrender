@@ -1,5 +1,3 @@
-// see ReadMe https://velmyshanovnyi.github.io/ptrender/
-
 var Mustache = require('mustache');
 var fs = require('fs');
 var path = require("path");
@@ -10,6 +8,7 @@ var tplFile   = "batch.pts.tpl";
 var tmpConfig = "batch.tmp.pts";
 var template;
 
+// see ReadMe https://velmyshanovnyi.github.io/ptrender/
 var config = {
     "baseDir":  "../ptfiles",
 	"backDir":  "back",
