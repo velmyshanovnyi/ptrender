@@ -10,7 +10,7 @@ var template;
 
 // see ReadMe https://velmyshanovnyi.github.io/ptrender/
 var config = {
-    "baseDir":  "../ptsample",
+    "baseDir":  "Z:\\ptsample",
 	"backDir":  "back",
     "frontDir": "front",
     "outDir":   "out"
