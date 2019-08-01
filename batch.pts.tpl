@@ -2,7 +2,7 @@
 
 #-encoding utf8
 #-pathseparator \
-#-fileversion 48
+#-fileversion 49
 #-previewwidth 2262
 #-previewheight 1131
 #-vfov 180
@@ -95,7 +95,7 @@
 #-stereographic_compression 1
 #-rectifisheye_compression 1
 # Panorama settings:
-p w5760 h2880 f2 v360 u0 n"JPEG_mb g0 q100"
+p w5760 h2880 f2 v360 u0 n"JPEG g0 q100"
 m g0 i0
 
 # input images:
