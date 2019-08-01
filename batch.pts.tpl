@@ -68,7 +68,7 @@
 #-batchsettings_stitch 1
 #-batchsettings_stitchonlyifcontrolpoints 1
 #-defaultprojectfilenamemode firstsourceimage
-#-defaultprojectfilename_custom " Panorama"
+#-defaultprojectfilename_custom "Panorama"
 #-defaultprojectfoldermode sourcefolder
 #-defaultprojectfolder_custom ""
 #-defaultpanoramafilenamemode asproject
