@@ -13,12 +13,12 @@ setlocal enableextensions enabledelayedexpansion
 
 @set ptrenderPath=D:\My_git\ptrender
 @set runFolderPath=Z:\ptfiles
-@set runFolderPath=Z:\ptsample
+rem @set runFolderPath=Z:\ptsample
+@set runFolderPath=G:\ptfiles
 rem @set runFolderPath=%1%
 
 
 @mkdir %runFolderPath%
-z:
 @cd %runFolderPath%
 @mkdir %runFolderPath%\back
 @mkdir %runFolderPath%\front
