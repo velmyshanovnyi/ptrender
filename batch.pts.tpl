@@ -21,19 +21,19 @@
 #-hdroutputhdrblended
 #-hdroutputtonemapped
 #-hdrfileformat hdr
-#-hdrmethod fuse
+#-hdrmethod truehdr
 #-hdrpsdparameters float none layered
-#-tonemapv2settings PTGTM 1 0.5 5 5 0.7 1 2 1 0.7 1
+#-tonemapv2settings PTGTM 1 0.5 2 0.6 0.4 1 2 0 0.7 1
 #-fusesettings 0.5 0 0.2 0 0
 #-cameracurve 3.441228 -0.551975 0.294423 -0.095632 0.072139
-#-vignettingparams -0.555713734500503 -0.5582554239693374 -0.5662753222348892 -0.5264144519209171 -0.4504717507127041
-#-wbexposure 0 0 0
+#-vignettingparams -0.546 -0.553 -0.610 -0.604 -0.535
+#-wbexposure -0.075 0.075 0.0
 #-pmoptexposuremode full
 #-pmoptvignettingmode enabled
 #-pmoptwbmode enabled
 #-pmoptflaremode enabled
 #-pmoptcameracurvemode auto
-#-exposurecorrection 1
+#-exposurecorrection 0
 #-tonemapldrpanorama 1
 #-blendweight 100 100
 #-optviewpoint 00
@@ -62,7 +62,7 @@
 #-alignsettings_setoptimumsize 1
 #-alignsettings_limitsize 500
 #-alignsettings_optimizeexposure 0
-#-hdrsettings_defaultlinkmode nolink
+#-hdrsettings_defaultlinkmode nohdr
 #-hdrsettings_donotask 0
 #-batchsettings_align 0
 #-batchsettings_stitch 1
