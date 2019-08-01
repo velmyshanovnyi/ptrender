@@ -12,8 +12,10 @@ setlocal enableextensions enabledelayedexpansion
 
 
 @set ptrenderPath=Z:\ptrender
+@set runFolderPath=Z:\ptfiles
+@set runFolderPath=%1%
 
-node %ptrenderPath%\render.js
+node %ptrenderPath%\render.js %runFolderPath%
 
 @echo.
 @echo.
