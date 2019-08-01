@@ -11,12 +11,23 @@ setlocal enableextensions enabledelayedexpansion
 @echo.
 
 
-@set ptrenderPath=Z:\ptrender
+@set ptrenderPath=D:\My_git\ptrender
 @set runFolderPath=Z:\ptfiles
 @set runFolderPath=Z:\ptsample
-@set runFolderPath=%1%
+rem @set runFolderPath=%1%
 
-node %ptrenderPath%\render.js %runFolderPath%
+
+@mkdir %runFolderPath%
+z:
+@cd %runFolderPath%
+@mkdir %runFolderPath%\back
+@mkdir %runFolderPath%\front
+@mkdir %runFolderPath%\out
+cd %runFolderPath%
+
+d:
+cd %ptrenderPath%
+node %ptrenderPath%\render.js
 
 @echo.
 @echo.
