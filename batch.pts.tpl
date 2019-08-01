@@ -709,14 +709,6 @@ c n1 N2 x2858 y1232 X60 Y1209 t0
 c n1 N2 x2857 y1223 X63 Y1199 t0
 # Control Point No 295: -1
 c n1 N2 x2924 y1212 X106 Y1213 t0
-# Control Point No 296: -1
-c n1 N2 x2898 y1205 X91 Y1195 t0
-# Control Point No 297: -1
-c n1 N2 x2938 y1156 X140 Y1167 t0
-# Control Point No 298: -1
-c n1 N2 x2914 y1154 X123 Y1152 t0
-# Control Point No 299: -1
-c n1 N2 x2928 y1123 X148 Y1133 t0
 # Control Point No 300: -1
 c n1 N2 x2876 y1115 X115 Y1100 t0
 # Control Point No 301: -1
