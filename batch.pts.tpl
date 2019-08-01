@@ -26,8 +26,8 @@
 #-tonemapv2settings PTGTM 1 0.5 2 0.6 0.4 1 2 0 0.7 1
 #-fusesettings 0.5 0 0.2 0 0
 #-cameracurve 3.441228 -0.551975 0.294423 -0.095632 0.072139
-#-vignettingparams -0.546 -0.553 -0.610 -0.604 -0.535
-#-wbexposure -0.075 0.075 0.0
+#-vignettingparams -0.55 -0.55 -0.60 -0.60 -0.55
+#-wbexposure -0.075 0 0
 #-pmoptexposuremode full
 #-pmoptvignettingmode enabled
 #-pmoptwbmode enabled
