@@ -3,8 +3,8 @@
 #-encoding utf8
 #-pathseparator \
 #-fileversion 49
-#-previewwidth 2262
-#-previewheight 1131
+#-previewwidth 6000
+#-previewheight 3000
 #-vfov 180
 #-resolution 600
 #-fixaspect 1
@@ -21,17 +21,17 @@
 #-hdroutputhdrblended
 #-hdroutputtonemapped
 #-hdrfileformat hdr
-#-hdrmethod fuse
+#-hdrmethod truehdr
 #-hdrpsdparameters float none layered
-#-tonemapv2settings PTGTM 1 0.5 20 20 0 0 2 1 0.15 0
+#-tonemapv2settings PTGTM 1 0.5 5 5 0.7 1 2 1 0.7 1
 #-fusesettings 0.5 0 0.2 0 0
 #-cameracurve 3.441228 -0.551975 0.294423 -0.095632 0.072139
-#-vignettingparams 0.001364004177815879 -0.7212000659805971 -1.454040649640442 -1.595363963657994 -1.42463970060943
+#-vignettingparams -0.60 -0.50 -0.55 -0.55 -0.5
 #-wbexposure 0 0 0
-#-pmoptexposuremode auto
+#-pmoptexposuremode full
 #-pmoptvignettingmode enabled
-#-pmoptwbmode disabled
-#-pmoptflaremode disabled
+#-pmoptwbmode enabled
+#-pmoptflaremode enabled
 #-pmoptcameracurvemode auto
 #-exposurecorrection 0
 #-tonemapldrpanorama 0
