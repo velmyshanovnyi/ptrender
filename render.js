@@ -11,7 +11,8 @@ var template;
 // see ReadMe https://velmyshanovnyi.github.io/ptrender/
 var config = {
     // "baseDir":  "Z:\\ptsample",
-    "baseDir":  "G:\\ptfiles",
+    // "baseDir":  "G:\\ptfiles",
+    "baseDir":  "../ptfiles",
 	"backDir":  "back",
     "frontDir": "front",
     "outDir":   "out"
@@ -52,7 +53,7 @@ function scan() {
                 var img = imageList[id];
                 if (img) {
                     img["front"] = frontDir + "/" + file;
-                    img["out"] = outDir + "/P" + id + ".jpg";
+                    img["out"] = outDir + "/PANO-" + id + ".jpg";
                 } else {
                     console.log("Skip front file without back " + file);
                 }
