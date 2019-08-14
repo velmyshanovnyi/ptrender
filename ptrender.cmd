@@ -21,25 +21,28 @@ rem NodeJS: - Microsoft VisualStudio2017Buildtools
 rem NodeJS: - і ще деякі бібліотеки...
 
 
+
 @set ptrenderGitPath=D:\My_git\ptrender
 @set ptrenderSrcPath=G:\ptrender
-@set ptrenderRenderPath=D:\ptfiles
-@set ptrenderRenderPath=G:\ptfiles
-@set ptrenderRenderPath=%1%
+@set ptrenderFolderPath=G:\ptfiles
+rem @set ptrenderFolderPath=Z:\ptsample
+rem @set ptrenderFolderPath=%1%
+
 
 
 @echo ptrenderGitPath    = %ptrenderGitPath%
 @echo ptrenderSrcPath    = %ptrenderSrcPath%
-@echo ptrenderRenderPath = %ptrenderRenderPath%
+@echo ptrenderFolderPath = %ptrenderFolderPath%
 
-@mkdir %ptrenderRenderPath%
-@cd    %ptrenderRenderPath%
-@mkdir %ptrenderRenderPath%\back
-@mkdir %ptrenderRenderPath%\front
-@mkdir %ptrenderRenderPath%\out
-@cd    %ptrenderSrcPath%
+@mkdir %ptrenderFolderPath%
+@cd    %ptrenderFolderPath%
+@dir
+@mkdir back
+@mkdir front
+@mkdir out
+cd     %ptrenderSrcPath%
 
-node render.js %ptrenderRenderPath%
+node render.js %ptrenderFolderPath%
 
 @echo.
 @echo.
@@ -51,5 +54,4 @@ node render.js %ptrenderRenderPath%
 @echo.
 @echo.
 @echo.
-
 cmd /k
