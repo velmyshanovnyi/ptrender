@@ -19,14 +19,24 @@ rem NodeJS: - Chocolatey
 rem NodeJS: - Python 2.7
 rem NodeJS: - Microsoft VisualStudio2017Buildtools
 rem NodeJS: - і ще деякі бібліотеки...
+rem 
+rem ######################################################################
+rem в ярлику для запуска використовуємо наступні параметри
+rem G:\ptrender\ptrender.cmd G:\ptrender G:\ptfiles
+rem де %1% - папка де ледить програмний комплекс
+rem де %2% - папка де лежать файли
+rem 
+rem 
+rem ######################################################################
+rem 
 
 
 
 @set ptrenderGitPath=D:\My_git\ptrender
 @set ptrenderSrcPath=G:\ptrender
+@set ptrenderSrcPath=%1%
 @set ptrenderFolderPath=G:\ptfiles
-rem @set ptrenderFolderPath=Z:\ptsample
-rem @set ptrenderFolderPath=%1%
+@set ptrenderFolderPath=%2%
 
 
 
